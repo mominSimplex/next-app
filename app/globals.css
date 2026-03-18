@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Oswald:wght@300;400;500;600;700&family=Fredoka+One&display=swap');
+
+:root {
+  --background: #ffffff;
+}
+
+@theme inline {
+  --color-primary: #F4BD18;
+  --color-brand-dark: #1A1919;
+  --color-brand-bg: #231F20;
+  --color-brand-muted: #5F5E60;
+  --color-brand-light: #DBD8C9;
+  --color-brand-border: #F7F7F7;
+
+  --font-bebas: 'Bebas Neue', sans-serif;
+  --font-pacifico: 'Pacifico', cursive;
+  --font-oswald: 'Oswald', sans-serif;
+  --font-fredoka: 'Fredoka One', cursive;
+}
+
+body {
+  background: var(--background);
+  color: #1A1919;
+  font-family: 'Oswald', Arial, sans-serif;
+}
